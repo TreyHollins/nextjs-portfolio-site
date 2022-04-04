@@ -10,7 +10,7 @@ function Footer(): JSX.Element {
                 </Link>
             </div>
             <div className="w-full px-8">
-                <p className="sm:text-xl font-semibold text-gray-400 text-center">David Hollins &copy; {(new Date().getFullYear())}</p>
+                <p className="sm:text-xl font-semibold text-gray-400 text-center">David Hollins &copy; {new Date().getFullYear()}</p>
             </div>
             <div className="w-full px-8 flex justify-end">
                 <a href="https://www.instagram.com/treyhollins23/" className="ml-3 text-lg font-medium text-gray-400 hover:text-gray-200">

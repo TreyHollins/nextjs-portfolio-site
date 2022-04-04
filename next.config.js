@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+require('dotenv').config();
 
-module.exports = nextConfig
+const nextConfig = {
+    reactStrictMode: true,
+    env: {
+        GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN,
+    },
+};
+
+module.exports = nextConfig;
