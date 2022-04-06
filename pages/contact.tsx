@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import ContactComponent from '../components/ContactComponent';
 
 function Contact(): JSX.Element {
     return (
@@ -10,7 +11,7 @@ function Contact(): JSX.Element {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <div className="w-full h-screen"></div>
+                <ContactComponent />
             </main>
         </div>
     );

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import ProjectsComponent from '../components/ProjectsComponent';
 
 function Projects(): JSX.Element {
     return (
@@ -10,7 +11,7 @@ function Projects(): JSX.Element {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <div className="w-full h-screen"></div>
+                <ProjectsComponent />
             </main>
         </div>
     );

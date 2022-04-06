@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import AboutComponent from '../components/AboutComponent';
 
 function About(): JSX.Element {
     return (
@@ -10,9 +11,7 @@ function About(): JSX.Element {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <div className="w-full h-screen">
-                    
-                </div>
+                <AboutComponent />
             </main>
         </div>
     );

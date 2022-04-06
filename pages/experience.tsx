@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import ExperienceComponent from '../components/ExperienceComponent';
 
 function Experience(): JSX.Element {
     return (
@@ -10,7 +11,7 @@ function Experience(): JSX.Element {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <div className="w-full h-screen"></div>
+                <ExperienceComponent />
             </main>
         </div>
     );
