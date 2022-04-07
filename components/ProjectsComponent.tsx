@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
-import catstronauts from '../public/catstronauts.jpg'
-import personalsite from '../public/personalsite.jpg'
-import chopper from '../public/chopper.png'
-import homegrown from '../public/homegrown.png'
+import catstronauts from '../images/catstronauts.jpg'
+import personalsite from '../images/personalsite.jpg'
+import chopper from '../images/chopper.png'
+import homegrown from '../images/homegrown.png'
 
 const projects = [
     {
