@@ -16,7 +16,7 @@ const about = {
 function AboutComponent(): JSX.Element {
     return (
         <div>
-            <div className="max-w-full mx-auto h-48 bg-sky-500">
+            <div className="max-w-full mx-auto h-48 bg-[#295275]">
                 <h1 className="text-gray-200 text-5xl md:text-9xl font-bold py-20 text-center">About Me</h1>
             </div>
             <div className="bg-[#202931] -mt-10">

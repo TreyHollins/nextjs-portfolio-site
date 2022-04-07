@@ -26,7 +26,7 @@ const projects = [
 function ProjectsComponent(): JSX.Element {
     return (
         <section>
-            <div className="max-w-full mx-auto h-48 bg-sky-500">
+            <div className="max-w-full mx-auto h-48 bg-[#295275]">
                 <h1 className="text-5xl md:text-9xl font-bold py-20 text-center text-gray-200">Projects</h1>
             </div>
             <div className="bg-[#202931]">
