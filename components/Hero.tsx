@@ -8,7 +8,7 @@ function Hero(): JSX.Element {
                 <h1 className="text-4xl font font-bold tracking-tight text-[#070723] sm:text-7xl text-center">Software Developer</h1>
                 <br />
                 <p className="font-medium text-lg sm:text-xl text-[#070723] text-center">
-                    I'm a graduate of the University of Cincinnati looking for a Software Developer position
+                    I&apos;m a graduate of the University of Cincinnati looking for a Software Developer position
                 </p>
             </div>
         </div>

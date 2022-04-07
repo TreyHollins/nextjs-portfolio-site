@@ -62,31 +62,31 @@ function AboutComponent(): JSX.Element {
                         <h1 className="bg-sky-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Tech Stack</h1>
                         <div className="flex flex-row flex-wrap mt-8">
                             <div className="m-4">
-                                <Image src={javascript} width="80px" height="80px" />
+                                <Image src={javascript} alt="Javascript" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={typescript} width="80px" height="80px" />
+                                <Image src={typescript} alt="Typescript" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={html} width="80px" height="80px" />
+                                <Image src={html} alt="HTML" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={css} width="80px" height="80px" />
+                                <Image src={css} alt="CSS" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={react} width="80px" height="80px" />
+                                <Image src={react} alt="React" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={java} width="80px" height="80px" />
+                                <Image src={java} alt="Java" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={nodejs} width="80px" height="80px" />
+                                <Image src={nodejs} alt="NodeJS" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={graphql} width="80px" height="80px" />
+                                <Image src={graphql} alt="GraphQL" width="80px" height="80px" />
                             </div>
                             <div className="m-4">
-                                <Image src={sqlserver} width="80px" height="80px" />
+                                <Image src={sqlserver} alt="SQL Server" width="80px" height="80px" />
                             </div>
                         </div>
                     </div>
