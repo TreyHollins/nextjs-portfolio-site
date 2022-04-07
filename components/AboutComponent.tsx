@@ -5,11 +5,11 @@ const about = {
     currentProject: 'Home Grown (Coming Soon)',
     currentProjectUrl: '',
     email: 'trey.hollins@gmail.com',
-    resumeUrl: '/resume.pdf',
+    resumeUrl: '/David-Hollins-III-Resume.pdf',
     description: [
         "I've been interested in software development since I was a kid. I would work on Codecademy courses in school and my interest grew each time I completed a lesson. Since then, I have continued to learn about programming whether it be from Codecademy, Pluralsight, my school work, or personal projects like this website.",
         "My latest project has been challenging but I've been able to push myself and learn more than I ever have before. It is called Home Grown. Once it launches,you will be able to find local farms and farmers' markets near your location. It's exciting to think about the possibilites of what it will become.",
-        "Besides programming, some of my hobbies include video games, going to the gym, and working on my car. I have a 2005 Nissan 350z. I love driving it and working on it has been a real learning experience.",
+        'Besides programming, some of my hobbies include video games, going to the gym, and working on my car. I have a 2005 Nissan 350z. I love driving it and working on it has been a real learning experience.',
     ],
 };
 
@@ -34,11 +34,7 @@ function AboutComponent(): JSX.Element {
                             <h1 className="text-xl font-semibold text-gray-200">Job Opportunities</h1>
                             <p className="text-lg text-gray-400 mt-4">
                                 I'm looking for a job currently, If you see me as a good fit, check my{' '}
-                                <a
-                                    href={about.resumeUrl}
-                                    target="__blank"
-                                    className="text-gray-50 bg-sky-500 px-1 py-1 rounded-md font-bold"
-                                >
+                                <a href={about.resumeUrl} target="__blank" className="text-gray-50 bg-sky-500 px-1 py-1 rounded-md font-bold">
                                     Resume
                                 </a>{' '}
                                 and I'd love to get in contact.
@@ -87,10 +83,7 @@ function AboutComponent(): JSX.Element {
                                 src="https://raw.githubusercontent.com/github/explore/e65ef46ef3e7bc457c93622f6a89fe8d3fd131d5/topics/graphql/graphql.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
-                            <img
-                                src="https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
+                            <img src="https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg" className="h-20 w-20 mx-4 my-4" />
                         </div>
                     </div>
                 </div>
