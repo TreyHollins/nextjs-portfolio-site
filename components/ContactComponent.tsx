@@ -10,8 +10,8 @@ function ContactComponent(): JSX.Element {
             <div className="flex items-around justify-center w-full h-screen bg-[#202931]">
                 <div className="flex flex-col md:flex-row justify-end bg-gray-200 rounded-md w-full md:w-1/2 h-fit">
                     <div className="w-full md:w-1/2 h-fit p-4">
-                        <h5 className="text-3xl text-center text-gray-600 font-semibold">Let's get in touch!</h5>
-                        <p className="text-xl text-center text-gray-500 font-medium">Feel free to reach out and I'll get back to you.</p>
+                        <h5 className="text-3xl text-center text-gray-600 font-semibold">Let&apos;s get in touch!</h5>
+                        <p className="text-xl text-center text-gray-500 font-medium">Feel free to reach out and I&apos;ll get back to you.</p>
                         <div className="flex content-center justify-center mt-8">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

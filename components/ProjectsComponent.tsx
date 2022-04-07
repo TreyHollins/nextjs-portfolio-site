@@ -1,25 +1,30 @@
+import Image from 'next/image';
 import React from 'react';
+import catstronauts from '../public/catstronauts.jpg'
+import personalsite from '../public/personalsite.jpg'
+import chopper from '../public/chopper.png'
+import homegrown from '../public/homegrown.png'
 
 const projects = [
     {
         title: 'Apollo GraphQL Practice Lab',
         link: 'https://hollins-catstronauts-client.herokuapp.com/',
-        imgUrl: '/catstronauts.jpg',
+        imgUrl: catstronauts,
     },
     {
         title: 'Personal Website with React',
         link: 'https://loving-goldstine-27a90d.netlify.app/',
-        imgUrl: '/personalsite.jpg',
+        imgUrl: personalsite,
     },
     {
         title: 'Discord Bot with NodeJS',
         link: 'https://github.com/TreyHollins/discord-bot',
-        imgUrl: '/chopper.png',
+        imgUrl: chopper,
     },
     {
         title: 'Home Grown - Coming Soon!',
         link: '',
-        imgUrl: '/homegrown.png',
+        imgUrl: homegrown,
     },
 ];
 
@@ -32,7 +37,7 @@ function ProjectsComponent(): JSX.Element {
             <div className="bg-[#202931]">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
                     {projects.map((proj, idx) => (
-                        <ProjectCard title={proj.title} link={proj.link} imgUrl={proj.imgUrl} number={`${idx + 1}`} />
+                        <ProjectCard key={idx} title={proj.title} link={proj.link} imgUrl={proj.imgUrl} number={`${idx + 1}`} />
                     ))}
                 </div>
             </div>
@@ -47,7 +52,7 @@ function ProjectCard({ title, link, imgUrl, number }): JSX.Element {
         <a href={link} className="w-full block shadow-2xl">
             <div className="relative overflow-hidden">
                 <div className="h-72 object-cover">
-                    <img
+                    <Image
                         src={imgUrl}
                         alt="portfolio"
                         className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"

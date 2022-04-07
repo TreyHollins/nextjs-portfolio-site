@@ -5,14 +5,14 @@ const experiences = [
         title: 'Internship',
         company: 'Mach One Digital',
         year: '2022',
-        description: "Helping to create a project launching soon. I've gotten experience using React, Typescript, and Apollo GraphQL",
+        description: "Helping to create a project launching soon. I\'ve gotten experience using React, Typescript, and Apollo GraphQL",
         companyLink: 'https://www.machonedigital.com/',
     },
     {
         title: 'University of Cincinnati',
         company: 'University of Cincinnati',
         year: '2021',
-        description: "Associate's of Applied Business with a focus in Software Application Development.",
+        description: "Associate\'s of Applied Business with a focus in Software Application Development.",
         companyLink: 'https://ucclermont.edu/',
     },
     {

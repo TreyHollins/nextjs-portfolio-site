@@ -1,4 +1,14 @@
+import Image from 'next/image';
 import React from 'react';
+import javascript from '../images/javascript.png';
+import typescript from '../images/typescript.png';
+import html from '../images/html.png';
+import css from '../images/css.png';
+import react from '../images/react.png';
+import java from '../images/java.png';
+import nodejs from '../images/nodejs.png';
+import graphql from '../images/graphql.png';
+import sqlserver from '../images/sqlserver.jpg';
 
 const about = {
     title: "I'm a Junior Software Developer who recently graduated from the University of Cincinnati. I'm looking for a Junior Developer Job",
@@ -8,8 +18,8 @@ const about = {
     resumeUrl: '/David-Hollins-III-Resume.pdf',
     description: [
         "I've been interested in software development since I was a kid. I would work on Codecademy courses in school and my interest grew each time I completed a lesson. Since then, I have continued to learn about programming whether it be from Codecademy, Pluralsight, my school work, or personal projects like this website.",
-        "My latest project has been challenging but I've been able to push myself and learn more than I ever have before. It is called Home Grown. Once it launches,you will be able to find local farms and farmers' markets near your location. It's exciting to think about the possibilites of what it will become.",
-        'Besides programming, some of my hobbies include video games, going to the gym, and working on my car. I have a 2005 Nissan 350z. I love driving it and working on it has been a real learning experience.',
+        "My latest project has been challenging but I have been able to push myself and learn more than I ever have before. It is called Home Grown. Once it launches,you will be able to find local farms and farmers' markets near your location. It's exciting to think about the possibilites of what it will become.",
+        'Besides programming, some of my hobbies include video games, going to the gym, and working on my car. I have a 2005 Nissan 350z. I love driving and working on it has been a real learning experience.',
     ],
 };
 
@@ -51,39 +61,33 @@ function AboutComponent(): JSX.Element {
 
                         <h1 className="bg-sky-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Tech Stack</h1>
                         <div className="flex flex-row flex-wrap mt-8">
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img
-                                src="https://raw.githubusercontent.com/github/explore/e65ef46ef3e7bc457c93622f6a89fe8d3fd131d5/topics/graphql/graphql.png"
-                                className="h-20 w-20 mx-4 my-4"
-                            />
-                            <img src="https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg" className="h-20 w-20 mx-4 my-4" />
+                            <div className="m-4">
+                                <Image src={javascript} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={typescript} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={html} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={css} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={react} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={java} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={nodejs} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={graphql} width="80px" height="80px" />
+                            </div>
+                            <div className="m-4">
+                                <Image src={sqlserver} width="80px" height="80px" />
+                            </div>
                         </div>
                     </div>
                 </div>
