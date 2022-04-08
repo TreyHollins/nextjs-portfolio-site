@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 function Footer(): JSX.Element {
     return (
-        <footer className="w-full flex-1 flex py-8 items-center justify-center bg-[#202931]">
-            <div className="w-full px-8">
+        <footer className="w-full flex-1 flex py-4 items-center justify-center bg-[#202931]">
+            <div className="w-full pl-8">
                 <Link href="/">
                     <a className="px-3 py-2 hover:text-gray-200 py-2 rounded-md sm:text-xl font-semibold text-gray-400">David Hollins</a>
                 </Link>
@@ -12,8 +12,8 @@ function Footer(): JSX.Element {
             <div className="w-full px-8">
                 <p className="sm:text-xl font-semibold text-gray-400 text-center">David Hollins &copy; {new Date().getFullYear()}</p>
             </div>
-            <div className="w-full px-8 flex justify-end">
-                <a href="https://www.instagram.com/treyhollins23/" className="ml-3 text-lg font-medium text-gray-400 hover:text-gray-200">
+            <div className="w-full flex pr-4 justify-end">
+                <a href="https://www.instagram.com/treyhollins23/" className="text-lg font-medium text-gray-400 hover:text-gray-200">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -35,7 +35,7 @@ function Footer(): JSX.Element {
                         />
                     </svg>
                 </a>
-                <a href="https://twitter.com/TreyHollins23" className="ml-3 text-lg font-medium text-gray-400 hover:text-gray-200">
+                <a href="https://twitter.com/TreyHollins23" className=" mx-2 text-lg font-medium text-gray-400 hover:text-gray-200">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -52,7 +52,7 @@ function Footer(): JSX.Element {
                         />
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/david-hollins/" className="ml-3 text-lg font-medium text-gray-400 hover:text-gray-200">
+                <a href="https://www.linkedin.com/in/david-hollins/" className="mr-2 text-lg font-medium text-gray-400 hover:text-gray-200">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -70,7 +70,7 @@ function Footer(): JSX.Element {
                         />
                     </svg>
                 </a>
-                <a href="https://github.com/TreyHollins" className="ml-3 text-lg font-medium text-gray-400 hover:text-gray-200">
+                <a href="https://github.com/TreyHollins" className="text-lg font-medium text-gray-400 hover:text-gray-200">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
