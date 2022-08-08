@@ -2,10 +2,10 @@ import React from 'react';
 
 const experiences = [
     {
-        title: 'Internship',
+        title: 'Junior Software Developer',
         company: 'Mach One Digital',
         year: '2022',
-        description: "Helping to create a project launching soon. I\'ve gotten experience using React, Typescript, and Apollo GraphQL",
+        description: "Helping to create a project launching soon. I\'ve gotten experience using React, React Native, Typescript, and Apollo GraphQL",
         companyLink: 'https://www.machonedigital.com/',
     },
     {
