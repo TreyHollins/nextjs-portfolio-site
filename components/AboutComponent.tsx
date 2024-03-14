@@ -11,7 +11,7 @@ import graphql from '../images/graphql.png';
 import sqlserver from '../images/sqlserver.jpg';
 
 const about = {
-    title: "I\'m a software developer who graduated from the University of Cincinnati. Since then, I have been working at Mach One Digital doing frontend development on several large projects.",
+    title: "I\'m a software developer who graduated from the University of Cincinnati. Since then, I have been working at Mach One Digital doing frontend development on several large projects",
     currentProject: 'Home Grown',
     email: 'trey.hollins@gmail.com',
     resumeUrl: '/David-Hollins-III-Resume.pdf',
