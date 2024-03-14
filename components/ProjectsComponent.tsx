@@ -1,15 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
-import catstronauts from '../images/catstronauts.jpg'
+import puregolden from '../images/puregolden.png'
 import personalsite from '../images/personalsite.jpg'
 import chopper from '../images/chopper.png'
 import homegrown from '../images/homegrown.png'
 
 const projects = [
+     {
+        title: 'Home Grown',
+        link: 'https://findhomegrown.com',
+        imgUrl: homegrown,
+    },
     {
-        title: 'Apollo GraphQL Practice Lab',
-        link: 'https://hollins-catstronauts-client.herokuapp.com/',
-        imgUrl: catstronauts,
+        title: 'Pure Golden - Natural Products',
+        link: 'https://puregolden.co',
+        imgUrl: puregolden
     },
     {
         title: 'Personal Website with React',
@@ -21,11 +26,7 @@ const projects = [
         link: 'https://github.com/TreyHollins/discord-bot',
         imgUrl: chopper,
     },
-    {
-        title: 'Home Grown - Coming Soon!',
-        link: '',
-        imgUrl: homegrown,
-    },
+   
 ];
 
 function ProjectsComponent(): JSX.Element {
