@@ -11,13 +11,13 @@ import graphql from '../images/graphql.png';
 import sqlserver from '../images/sqlserver.jpg';
 
 const about = {
-    title: "I\'m a junior software developer who recently graduated from the University of Cincinnati. I\'m looking for an entry level programming job",
+    title: "I\'m a software developer who graduated from the University of Cincinnati. Since then, I have been working at Mach One Digital doing frontend development on several large projects.",
     currentProject: 'Home Grown',
     email: 'trey.hollins@gmail.com',
     resumeUrl: '/David-Hollins-III-Resume.pdf',
     description: [
         "I\'ve been interested in software development since I was a kid. I would work on Codecademy courses in school and my interest grew each time I completed a lesson. Since then, I have continued to learn about programming whether it be from Codecademy, Pluralsight, my school work, or personal projects like this website.",
-        "My latest project has been challenging but I have been able to push myself and learn more than I ever have before. Once it launches,you will be able to find local farms and farmers\' markets near your location. It\'s exciting to think about the possibilites of what it will become.",
+        "Over my career so far, I\'ve been able to work on some exciting projects using the technologies I already knew and learning new ones like React Native. I've helped build a couple web applications using NextJS and React and a few mobile applications using React Native.",
         'Besides programming, some of my hobbies include video games, going to the gym, and working on my car. I have a 2005 Nissan 350z. I love driving and working on it has been a real learning experience.',
     ],
 };

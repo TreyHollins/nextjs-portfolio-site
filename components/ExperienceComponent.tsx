@@ -2,10 +2,10 @@ import React from 'react';
 
 const experiences = [
     {
-        title: 'Junior Software Developer',
+        title: 'Software Developer',
         company: 'Mach One Digital',
         year: '2022',
-        description: "Helping to create a project launching soon. I\'ve gotten experience using React, React Native, Typescript, and Apollo GraphQL",
+        description: "Worked on teams to create web and mobile applications using React, React Native, NextJS, Typescript, and Apollo GraphQL",
         companyLink: 'https://www.machonedigital.com/',
     },
     {
@@ -16,26 +16,12 @@ const experiences = [
         companyLink: 'https://ucclermont.edu/',
     },
     {
-        title: 'Fulfillment Expert',
-        company: 'Target',
-        year: '2021',
-        description: 'Trained new team members while retrieving items for online orders, packed items, and loaded packages.',
-        companyLink: 'https://www.target.com/',
-    },
-    {
         title: 'High School',
         company: 'Williamsburg High School',
         year: '2020',
         description:
             'College Credit Plus Student at UC Clermont College with 58 credit hours including 30+ IT credit hours over 4 semesters, 3.9 GPA',
         companyLink: 'https://www.burgschools.org/',
-    },
-    {
-        title: 'Crew Trainer',
-        company: "McDonald's",
-        year: '2017',
-        description: 'Trained new crew members while completing orders for guests under time constraints.',
-        companyLink: '',
     },
 ];
 
